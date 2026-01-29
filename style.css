@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#game-board {
+    width: 400px;
+    height: 400px;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    margin: auto;
+    border: 2px solid black;
+}
+
+.snake {
+    background-color: green;
+}
+
+.food {
+    background-color: red;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: yellowgreen;
+}
+#controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin: 10px auto;
+}
+
+#pauseBtn {
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
